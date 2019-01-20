@@ -1,0 +1,5 @@
+---
+- name: webserversetting
+  hosts: webservers
+  roles:
+     - web_nginx
