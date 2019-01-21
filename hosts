@@ -1,5 +1,6 @@
 [test-servers]
-192.168.56.52
+# 192.168.56.52
+192.168.56.52 ansible_ssh_private_key_file=~/.ssh/id_rsa
 
 # webservers
 [webservers:children]
